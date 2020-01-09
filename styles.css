@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://www.drinkmagazine.asia/wp-content/uploads/2017/06/fridrinkcoffeeflowers.jpg");
+  background-size: cover;
+}
+.container {
+  max-width: 400px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: 1px solid rgb(61, 38, 11);
+  background: white;
+  max-width: 400px;
+}
+
+.todolist {
+  background: rgb(190, 117, 117);
+  font-family: sans-serif, Avantgarde;
+  border-radius: 6px;
+  /* text-shadow: 1px 1px 4px #000000; */
+}
+
+.todos li {
+  background: rgb(190, 117, 117);
+}
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
+
+.newtodo {
+  font-family: sans-serif, Avantgarde;
+  font-weight: 900;
+  text-shadow: 1px 1px white;
+}
+
+.clock {
+  font-family: sans-serif, Avantgarde;
+  color: rgb(190, 117, 117);
+  margin: 10px 10px;
+}
+
+.clock span {
+  padding: 2px;
+  font-weight: 900;
+  text-shadow: 1px 1px white;
+}
